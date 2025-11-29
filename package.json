@@ -3,13 +3,13 @@
   "version": "3.1.0",
   "author": "Armin Sebastian",
   "license": "GPL-3.0-only",
-  "homepage": "https://github.com/dessant/buster",
+  "homepage": "https://github.com/aprendeineamx-max/Buster-Captcha-Extension",
   "repository": {
-    "url": "https://github.com/dessant/buster.git",
+    "url": "https://github.com/aprendeineamx-max/Buster-Captcha-Extension.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/dessant/buster/issues"
+    "url": "https://github.com/aprendeineamx-max/Buster-Captcha-Extension/issues"
   },
   "scripts": {
     "_build": "cross-env NODE_ENV=development gulp build",

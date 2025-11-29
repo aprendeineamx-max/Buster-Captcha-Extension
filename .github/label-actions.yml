@@ -19,5 +19,5 @@ recaptcha-error:
     comment: |
       You may experience a temporary block when trying to solve a reCAPTCHA audio challenge. Visit the wiki to learn more about the issue and the steps you can take to minimize the risk of a temporary block.
 
-      https://github.com/dessant/buster/wiki/Inaccessible-reCAPTCHA-audio-challenge
+      https://github.com/aprendeineamx-max/Buster-Captcha-Extension/wiki/Inaccessible-reCAPTCHA-audio-challenge
     close: true
