@@ -56,7 +56,7 @@ The client app enables you to simulate user interactions and improves
 the success rate of the extension. Follow the instructions
 from the extension's options to download and install the client app
 on Windows, Linux and macOS, or get the app
-from [this](https://github.com/dessant/buster-client#readme) repository.
+from [this](https://github.com/aprendeineamx-max/buster-client#readme) repository.
 
 ## Screenshots
 

@@ -31,7 +31,7 @@
           v-if="options.speechService === 'googleSpeechApi'"
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/dessant/buster/wiki/Configuring-Google-Cloud-Speech-to-Text"
+          href="https://github.com/aprendeineamx-max/Buster-Captcha-Extension/wiki/Configuring-Google-Cloud-Speech-to-Text"
         >
           {{ getText('linkText_apiGuide') }}
         </a>
@@ -62,7 +62,7 @@
           v-if="options.speechService === 'ibmSpeechApi'"
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/dessant/buster/wiki/Configuring-IBM-Watson-Speech-to-Text"
+          href="https://github.com/aprendeineamx-max/Buster-Captcha-Extension/wiki/Configuring-IBM-Watson-Speech-to-Text"
         >
           {{ getText('linkText_apiGuide') }}
         </a>
@@ -95,7 +95,7 @@
           v-if="options.speechService === 'microsoftSpeechApi'"
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/dessant/buster/wiki/Configuring-Microsoft-Azure-Speech-to-Text"
+          href="https://github.com/aprendeineamx-max/Buster-Captcha-Extension/wiki/Configuring-Microsoft-Azure-Speech-to-Text"
         >
           {{ getText('linkText_apiGuide') }}
         </a>
@@ -136,7 +136,7 @@
           v-if="options.speechService === 'witSpeechApi'"
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/dessant/buster/wiki/Configuring-Wit.ai"
+          href="https://github.com/aprendeineamx-max/Buster-Captcha-Extension/wiki/Configuring-Wit.ai"
         >
           {{ getText('linkText_apiGuide') }}
         </a>
@@ -403,11 +403,11 @@ export default {
       } catch (err) {
         if (!this.installGuideUrl) {
           this.installGuideUrl =
-            'https://github.com/dessant/buster/wiki/Installing-the-client-app';
+            'https://github.com/aprendeineamx-max/Buster-Captcha-Extension/wiki/Installing-the-client-app';
           const {os, arch} = this.$env;
           if (clientAppPlatforms.includes(`${os}/${arch}`)) {
             this.installGuideUrl += `#${os}`;
-            this.clientAppDownloadUrl = `https://github.com/dessant/buster-client/releases/download/v${clientAppVersion}/buster-client-setup-v${clientAppVersion}-${os}-${arch}`;
+            this.clientAppDownloadUrl = `https://github.com/aprendeineamx-max/buster-client/releases/download/v${clientAppVersion}/buster-client-setup-v${clientAppVersion}-${os}-${arch}`;
             if (os === 'windows') {
               this.clientAppDownloadUrl += '.exe';
             }
